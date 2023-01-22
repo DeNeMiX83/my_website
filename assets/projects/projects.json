@@ -1,0 +1,25 @@
+{
+    "EditDB": {
+        "name": "EditDB",
+        "description": "Приложение для редактирования базы данных, которая хранит цитаты.<br>В реализации используется разделение прав доступа по ролям при работе с записями.",
+        "category": "app",
+        "github": "https://github.com/DeNeMiX83/EditDB",
+        "technologies": [
+            "java",
+            "javafx",
+            "mysql"
+        ]
+    },
+    "YandexLicey_telegramm_bot": {
+        "name": "YandexLicey_telegramm_bot",
+        "description": "Бот для распределения задач между подчиненными.<br>Бот позволяет добавить список подчиненных, и после этого назначать им задачи.<br>При выаполнении задачи подчиненные смогут прикрепить отчет о выполнении задачи в виде: голосового сообщения, фотографии, файла.",
+        "category": "bot",
+        "github": "https://github.com/DeNeMiX83/YandexLicey_telegramm_bot",
+        "technologies": [
+            "python",
+            "aiogram",
+            "sqlalchemy",
+            "postgresql"
+        ]
+    }
+}
