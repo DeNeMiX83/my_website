@@ -24,7 +24,7 @@
     },
     "Pool search assistant": {
         "name": "Pool search assistant",
-        "description": "API-сервис для рекомендаций бассейнов на основе понравившихся бассейнов. <br>Для работы сервиса использовался датасет из открытых данных города Москва<a href='https://data.mos.ru/opendata/7708308010-basseyny-plavatelnye-krytye' target='_blank'>ссылка на источник</a>Для рекомендаций использовался алгоритм по косинусному расстоянию.",
+        "description": "API-сервис для рекомендаций бассейнов на основе понравившихся бассейнов. <br>Для работы сервиса использовался датасет из открытых данных города Москва <a href='https://data.mos.ru/opendata/7708308010-basseyny-plavatelnye-krytye' target='_blank'>- ссылка на датасет</a>Для рекомендаций использовался алгоритм по косинусному расстоянию.<br><a href='https://miheev.su/pool/api/v1/docs' target='_blank'>- ссылка на докоментацию сервиса API</a>",
         "category": "api",
         "github": "https://github.com/DeNeMiX83/pool_search_assistant",
         "technologies": [
