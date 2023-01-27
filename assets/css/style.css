@@ -528,8 +528,12 @@ main {
 
 .popup__body .service {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 0;
   padding: 0;
+  width: 80%;
 }
 
 .service-title { margin-bottom: 20px; }
