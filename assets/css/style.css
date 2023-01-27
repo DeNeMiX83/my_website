@@ -116,7 +116,10 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none;}
+a { text-decoration: none;
+    background-color: transparent;
+    color: var(--orange-yellow-crayola);
+}
 
 li { list-style: none; }
 
@@ -434,7 +437,7 @@ main {
 .social-link{
   color: var(--light-gray-70);
   font-size: 22px;
-  transition: var(--transition-2);
+  transition: var(--transition-1);
 }
 
 .social-link svg{
@@ -525,8 +528,12 @@ main {
 
 .popup__body .service {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 0;
   padding: 0;
+  width: 80%;
 }
 
 .service-title { margin-bottom: 20px; }
@@ -553,6 +560,8 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .service-item::before {
@@ -796,6 +805,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
+  max-height: fit-content;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -1051,13 +1061,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .popup__text {
   color: var(--white-1);
-  font-size: var(--fs-6);
+  font-size: var(--fs-3);
   font-weight: var(--fw-300);
   line-height: 1.5;
 }
 
 .popup__github{
   display: flex;
+  scale: 1.2;
 }
 
 .popup_bottom_void {
@@ -1502,7 +1513,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .popup__body .service-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 
 

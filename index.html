@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Михеев Даниил Евгеньевич - Backend разработчик. Это мой личный сайт-портфолио где вы можете лучше ознакомиться с моей деятельностю">
-  <meta name="Keywords" content="михеев даниил, backend разработчик, портфолио, личный сайт">
+  <meta name="description" content="Михеев Даниил Евгеньевич - Backend разработчик. Личный сайт-портфолио. Основной язык: python.">
+  <meta name="Keywords" content="михеев даниил, backend разработчик, портфолио, личный сайт, python">
   <meta name="yandex-verification" content="8c22b83b1f94ae83" />
   <title>Михеев Даниил</title>
 
@@ -229,8 +229,9 @@
           </p>
 
           <p>
-            Меня всегда привлекала работа на другой стороне приложений, где разрабатывается логика продукта.<br> 
-            На данный момент разрабатываю API для различных сайтов.
+            Меня всегда привлекала работа на другой стороне приложений, где разрабатывается логика продукта. Потому что там больше возомжностей запрогать что нибудь такое большое.<br> 
+            <br>
+            На данный момент разрабатываю сервисы API для различных сайтов.
           </p>
         </div>
 
@@ -258,6 +259,21 @@
                   <img src="https://img.shields.io/badge/-Python-386e9d?style=flat&amp;logo=Python&amp;logoColor=ffd241&amp;" alt="Python">
                   <img src="https://img.shields.io/badge/-Django-0aad48?style=flat&amp;logo=Django" alt="Django">
                   <img src="https://img.shields.io/badge/DRF-red?style=flat&amp;logo=Django" alt="Django Rest Framework">
+                  <img src="https://img.shields.io/badge/FastAPI-109989?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+                  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&amp;logo=java&amp;logoColor=white" alt="Java">
+                </div>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend</h4>
+
+                <div class="service-item-icon">
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&amp;logo=css3&amp;logoColor=white" alt="CSS3">
+                  <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript"></p>
+
                 </div>
               </div>
             </li>
@@ -267,8 +283,9 @@
                 <h4 class="h4 service-item-title">Базы данных</h4>
 
                 <div class="service-item-icon">
-                  <img src="https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat-square&amp;logo=Postgresql" alt="Postgresql">
-                  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=ffffff" alt="MySQL">
+                  <img src="https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&amp;logo=Postgresql" alt="Postgresql">
+                  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&amp;logo=mysql&amp;logoColor=ffffff" alt="MySQL">
+                  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?&amp;style=flat&amp;logo=redis&amp;logoColor=white" alt="Redis">
                 </div>
               </div>
             </li>
@@ -386,12 +403,38 @@
           </div>
 
           <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Студенческая Веб-студия AboutWeb</h4>
+
+              <span>2022 — По настоящее время</span>
+
+              <p class="timeline-text">
+                - Разработка сайтов для вуза и заказчиков.<br>
+                - Изучение и использование новых технологий. <br>
+                - Работа в команде.<br>
+                Позиция: Backend-разработчик
+              </p>
+
+            </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Домашние проекты с REST API</h4>
+              <h4 class="h4 timeline-item-title">Домашние проекты с clean architecture</h4>
 
-              <span>2021 — По настоящее время</span>
+              <span>2022 — По настоящее время</span>
+
+              <p class="timeline-text">
+                Изучение темы архитектур и паттернов проектирования.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Домашние проекты по разработке API</h4>
+
+              <span>2021 — 2022</span>
 
               <p class="timeline-text">
                 Работал с Django и Django rest framework.<br>
@@ -512,11 +555,15 @@
             </li>
 
             <li class="filter-item">
-              <button id="bots" data-filter-btn>Боты</button>
+              <button id="api" data-filter-btn>API</button>
             </li>
 
             <li class="filter-item">
-              <button id="applications" data-filter-btn>Приложения</button>
+              <button id="bot" data-filter-btn>Боты</button>
+            </li>
+
+            <li class="filter-item">
+              <button id="app" data-filter-btn>Приложения</button>
             </li>
 
           </ul>
@@ -538,11 +585,15 @@
               </li>
 
               <li class="select-item">
-                <button id="bots" data-select-item>Боты</button>
+                <button id="api" data-select-item>API</button>
               </li>
 
               <li class="select-item">
-                <button id="applications" data-select-item>Приложения</button>
+                <button id="bot" data-select-item>Боты</button>
+              </li>
+
+              <li class="select-item">
+                <button id="app" data-select-item>Приложения</button>
               </li>
 
             </ul>
@@ -550,12 +601,30 @@
           </div>
 
           <ul class="project-list">
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item="" data-category="api">
               <a href="#popup-project" class="popup-link">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="eye-outline" role="img" class="md hydrated" aria-label="eye outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-api-Pool search assistant.png" alt="Pool search assistant" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pool search assistant</h3>
+
+                <p class="project-category">API</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="app">
+              <a href="#popup-project" class="popup-link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline" role="img" class="md hydrated" aria-label="eye outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-app-EditDB.png" alt="EditDB" loading="lazy">
@@ -568,12 +637,12 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="bots">
+            <li class="project-item  active" data-filter-item="" data-category="bot">
               <a href="#popup-project" class="popup-link">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="eye-outline" role="img" class="md hydrated" aria-label="eye outline"></ion-icon>
                   </div>
 
                   <img src="./assets/images/project-bot-YandexLicey_telegramm_bot.png" alt="YandexLicey_telegramm_bot" loading="lazy">
@@ -586,7 +655,6 @@
               </a>
             </li>
           </ul>
-
         </section>
 
       </article>
@@ -610,14 +678,14 @@
   
             <h3 class="h3 service-title">Cтэк технологий</h3>
   
-            <ul class="service-list">
+            <div class="service-list">
   
-              <li class="service-item">
+              <div class="service-item">
                 <div class="service-content-box">
                   <div class="service-item-icon"></div>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
   
           </section>
           <div class="popup__text"></div>
