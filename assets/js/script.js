@@ -17,6 +17,7 @@ const technologie_shields = {
   'python': 'https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white',
   'fastapi': 'https://img.shields.io/badge/FastAPI-109989?style=flat&logo=fastapi&logoColor=white',
   'django': 'https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white',
+  'django-rest-framework': 'https://img.shields.io/badge/DRF-092E20?style=flat&logo=django&logoColor=white',
   'flask': 'https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white',
   'pyqt5': 'https://img.shields.io/badge/PyQt5-41CD52?style=flat&logo=pyqt&logoColor=white',
   'sqlalchemy': 'https://img.shields.io/badge/SQLAlchemy-003B57?style=flat&logo=sqlalchemy&logoColor=white',

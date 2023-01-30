@@ -35,5 +35,17 @@
             "redis",
             "docker-compose"
         ]
+    },
+    "Yandex_backend_school": {
+        "name": "Yandex_backend_school",
+        "description": "Решение задачи из Школы бэкенд-разработки Яндекса",
+        "category": "api",
+        "github": "https://github.com/DeNeMiX83/Yandex_backend_school",
+        "technologies": [
+            "python",
+            "django-rest-framework",
+            "postgresql",
+            "docker-compose"
+        ]
     }
 }
