@@ -116,7 +116,8 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none;
+a { 
+    text-decoration: none;
     background-color: transparent;
     color: var(--orange-yellow-crayola);
 }
