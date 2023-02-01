@@ -1023,6 +1023,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   justify-self: center;
   align-items: center;
   /* background: red; */
+  transform: translate(-50%, 5%);
   box-shadow: var(--shadow-3);
 }
 
@@ -1132,7 +1133,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
     --fs-1: 32px;
     --fs-2: 24px;
-    --fs-3: 26px;
+    --fs-3: 20px;
     --fs-4: 18px;
     --fs-6: 18px;
     --fs-7: 15px;
@@ -1404,7 +1405,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
   
   .popup.open .popup__main{
-    transform: translate(-50%, 5%);
     opacity: 1;
   }
 
@@ -1413,7 +1413,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .popup__main {
-    width: 60%;
+    width: 65%;
   }
 
   .popup_bottom_void{
