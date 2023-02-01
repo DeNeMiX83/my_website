@@ -248,7 +248,7 @@ function projectDescription(curentPopup, project_data) {
   curentPopup.querySelector(".popup__title").getElementsByTagName(
     "h3")[0].innerHTML = project_data.name;
   curentPopup.querySelector(".popup__text").innerHTML = project_data.description;
-  curentPopup.querySelector(".popup__image").src = "../assets/images/project-" +
+  // curentPopup.querySelector(".popup__image").src = "../assets/images/project-" +
     project_data.category + "-" + project_data.name + ".png";
   curentPopup.querySelector(".popup__github").href = project_data.github;
   let service_item_icon = curentPopup.querySelector(".service-item-icon");
