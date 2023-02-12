@@ -582,19 +582,17 @@ main {
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { margin-bottom: 10px; }
 
 .service-item-icon {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .service-item-icon img{
-  height: 30px;
-  /* margin: 5px 7px 5px 7px; */
+  height: 20px;
 }
 
 
@@ -1251,6 +1249,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .service-content-box { text-align: left; }
 
+  .service-item-icon {
+    justify-content: left;
+  }
+
+
+  .service-item-icon img{
+    height: 25px;
+  }
+
   
   /**
    * #RESUME
@@ -1514,6 +1521,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .popup__body .service-list {
     grid-template-columns: 1fr; 
+  }
+
+  .service-item-icon img{
+    height: 30px;
   }
 
 
