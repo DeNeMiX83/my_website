@@ -1618,6 +1618,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 100%;
     margin-bottom: 0;
     z-index: 1;
+    max-height: max-content;
   }
 
   .sidebar.active { max-height: max-content; }
