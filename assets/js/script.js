@@ -26,6 +26,7 @@ const technologie_shields = {
   'javafx': 'https://img.shields.io/badge/JavaFX-000000?style=flat&logo=javafx&logoColor=white',
   'docker': 'https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white',
   'docker-compose': 'https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat&logo=docker&logoColor=white',
+  'go': 'https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white',
 }
 
 function funonload() {
