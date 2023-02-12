@@ -1145,11 +1145,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #REUSED STYLE
    */
 
-  .sidebar, article {
+  /* .sidebar, article {
     width: 520px;
     margin-inline: auto;
     padding: 20px;
-  }
+  } */
 
   .article-title {
     font-weight: var(--fw-600);
@@ -1331,7 +1331,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: 700px; }
+  /* .sidebar, article { width: 700px; } */
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
@@ -1462,6 +1462,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article {
     width: 950px;
+    margin-inline: auto;
     box-shadow: var(--shadow-5);
   }
 
@@ -1614,11 +1615,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar {
     position: sticky;
     top: 15px;
-    max-height: max-content;
     height: 100%;
     margin-bottom: 0;
     z-index: 1;
   }
+
+  .sidebar.active { max-height: max-content; }
 
   .sidebar-info { flex-direction: column; }
 
