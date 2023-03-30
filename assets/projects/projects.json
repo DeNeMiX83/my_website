@@ -43,8 +43,39 @@
         "github": "https://github.com/DeNeMiX83/Yandex_backend_school",
         "technologies": [
             "python",
-            "django-rest-framework",
+            "drf",
             "postgresql",
+            "docker-compose"
+        ]
+    },
+    "Blackjack": {
+        "name": "Blackjack",
+        "description": 
+            "Телеграмм-бот для игры в 'Блэкджек'<br>- Бот с полноценным геймплеем и защитой от спама (троттлингом).<br>- Отдельный сервис для пуллинга Telegram-API с RabbitMQ.<br>- Сервис API для администратора.<br>- Авто-деплой на удаленный сервер и загрузка образа в registry с помощью Github-Actions.",
+        "category": "api",
+        "github": "https://github.com/DeNeMiX83/black_jack",
+        "technologies": [
+            "python",
+            "aiohttp",
+            "rabbitmq",
+            "postgresql",
+            "sqlalchemy",
+            "redis",
+            "docker-compose"
+        ]
+    },
+    "Doc search": {
+        "name": "Doc search",
+        "description":
+            "- Сервис принимает на вход произвольный текстовый запрос, ищет документы по тексту документа в индексе и возвращает первые 20 документов со всем полями БД, упорядоченные по дате создания.<br>- Создание документа одновременно в БД и в индексе.<br>- При создании документа с новыми рубриками, они создаются автоматически.<br>- Удаление документов из БД и индекса по полю id.<br>- Поднят сервис kibana.",
+        "category": "api",
+        "github": "https://github.com/DeNeMiX83/search_by_document_texts",
+        "technologies": [
+            "python",
+            "fastapi",
+            "elasticsearch",
+            "postgresql",
+            "sqlalchemy",
             "docker-compose"
         ]
     }
