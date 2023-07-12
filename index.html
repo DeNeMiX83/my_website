@@ -78,7 +78,9 @@
 
         <figure class="avatar-box">
         <!-- <div class="avatar-box"> -->
-          <img src="./assets/images/my-avatar.png" alt="Михеев Даниил">
+          <div itemscope itemtype="http://schema.org/ImageObject">
+            <img src="./assets/images/my-avatar.png" alt="Михеев Даниил">
+          </div>
         <!-- </div> -->
         </figure>
 
@@ -376,6 +378,112 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
+            <h3 class="h3">Опыт</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SK WebStudio</h4> 
+              <a href="https://сквеб.рф" target="_blank">Сайт студии</a>
+              <span>Апрель 2023 — По настоящее время<br>
+                    4 месяца
+              </span>
+
+              <p class="timeline-text">
+                <b>Python Backend-разработчик.</b><br>
+                Создание чат ботов: ограничение запросов, подписки, aiogram-dialog, админка, деплой.<br>
+                Стек: Aiogram, PostgreSQL, Sqlalchemy, RabbitMQ, Redis, Docker-compose.<br>
+                Разработка API: авторизация, работа с облачными хранилищами, деплой, работа с изображениями.<br>
+                Стек: FastAPI, PostgreSQL, Sqlalchemy, RabbitMQ, Redis, Docker-compose, Nginx.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Веб-студия AboutWeb</h4>
+
+              <span>Сентябрь 2021 — Январь 2023<br>
+                    1 года 5 месяцев
+              </span>
+              
+              <p class="timeline-text">
+                <b>Python Backend-разработчик.</b><br>
+                Работал в команде из 8 человек. Использовали: SCRUM, Jira, Git.<br>
+                Задачи:<br>
+                - Разработка REST API (выбор структуры, архитектуры проекта, стека технологий)<br>
+                - Авторизация при помощи сессий и токенов.<br>
+                - Работа с файлами, обработкой фото.<br>
+                - Деплой проектов (при помощи docker, nginx).<br>
+                - Проектирование базы данных (нормализация, индексы)<br>
+                - Курирование работы смежной команды.<br>
+                Стэк проектов: DjangoRestFramework, FastAPI, Go, PosrgreSQL, Sqlalchemy, Docker, Docker-compose.<br>
+                Архитектура: монолит<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Обучение</h4>
+
+              <span>Сентябрь 2022 — ноябрь 2022<br>
+                    3 месяца
+              </span>
+
+              <p class="timeline-text">
+                Практика разделения проекта на слои и применение паттернов проектирования.<br>
+                Ссылки на github проектов лежат во вкладке "Портфолио"<br>
+                <br>
+
+                Проект Black jack<br>
+                1. Бот с полноценным геймплеем и защитой от спама (троттлингом).<br>
+                2. Отдельный сервис для пуллинга Telegram-API с RabbitMQ.<br>
+                3. Авто-деплой на удаленный сервер и загрузка образа в registry с помощью Github-Actions.<br>
+                Стэк: Aiohttp, PostgreSQL, Sqlalshemy, Redis, RabbitMQ, Docker-compose.<br>
+                Архитектура: монолит.<br>
+                <br>
+                - Проект Pool search assistant, поиск подходящих бассейнов.<br>
+                Интеграция с API открытых данных, авторизация пользователей через сессии, анализ данных.
+                Стек: PostgreSQL, Redis, FastAPI, Sqlalshemy, Alembic.<br>
+                Архитектура: монолит.<br> 
+                <br>
+                - Проект для работы с документами.<br>
+                Стек: FastAPI, PostgreSQL, Sqlalshemy, Alembic, ElasticSearch.<br>
+                Архитектура: монолит<br>
+                </a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Преподаватель в компании Geekz (ЕГЭ информатика)</h4>
+
+              <span>Сентябрь 2022 — Май 2023<br>
+                    9 месяцев
+              </span>
+
+              <p class="timeline-text">
+                - Проведение уроков по 1.5 - 2 часа (1 раз в две недели в группе)<br>
+                - Курирование 2-ух групп учеников по 10 человек.<br>
+                - Проведение личных бесед с учениками (по 30 мин, раз в месяц).<br>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
             <h3 class="h3">Образование</h3>
           </div>
 
@@ -407,147 +515,6 @@
           </ol>
 
         </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Опыт</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Веб-студия AboutWeb</h4>
-
-              <span>Сентябрь 2021 — Январь 2023<br>
-                    1 года 5 месяцев
-              </span>
-
-              <p class="timeline-text">
-                Позиция: Python Backend-разработчик.<br>
-                - Разработка сайтов для заказчиков. Работа в командах из 6-8 человек. Используем: Scrum, Jira, Git.<br>
-                - Мои задачи: Планирование архитектуры API и базы данных. Деплой проектов на сервер.<br>
-                - Куратор-наставник одной из трех команд.<br>
-                - Проекты с моим участием:<br>
-                <a href="https://github.com/Isas2g/WEB-studio-project" target="_blank">GitHub сайта веб-студии</a>
-                <a href="https://github.com/Isas2g/SmoothieFeed" target="_blank">GitHub проекта SmoothieFeed</a>
-                Стэк двух проектов: DjangoRestFramework, PosrgreSQL, Docker. API для сайта веб-студии переписывается на golang.<br>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Обучение</h4>
-
-              <span>Февраль 2023 — март 2023<br>
-                    2 месяца
-              </span>
-
-              <p class="timeline-text">
-                Телеграмм бот блэк джек (https://github.com/DeNeMiX83/black_jack). <br>
-                Стек: Aiohttp, PostgreSQL, Sqlalchemy, RabbitMQ, Docker-compose. Брокер использован для пуллинга тг апи, бот считывает обновления из очереди. <br>
-                Архитектура: монолит.
-                </a>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Обучение</h4>
-
-              <span>Сентябрь 2022 — ноябрь 2022<br>
-                    3 месяца
-
-              </span>
-
-              <p class="timeline-text">
-                Практика разделения проекта на слои и применение паттернов проектирования.<br>
-                Работа с библиотеками FastAPI и Sqlalchemy (асинхронный).<br>
-                - Проект Pool search assistant (в портфолио)<br>
-                Интеграция с  API открытых данных. Ссылка на документацию API - https://miheev.su/pool/api/v1/docs.
-                Стэк: PostgreSQL, Redis, FastAPI, Sqlalshemy, Alembic. Архитектура: монолит.<br>
-                </a>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Обучение</h4>
-
-              <span>Сентябрь 2021 — Сентябрь 2022<br>
-                    1 год
-              </span>
-
-              <p class="timeline-text">
-                Изучение: Django, Django rest framework, <br>
-                - Проект: Yandex_backend_school (в портфолио)
-                Сервис API для маркетплейса. Работа с многовложенными сущностями. 
-                Стэк: DjangoRestFramework, PostgreSQL, Docker. API для маркетплейса(тех. задание).<br>
-                - Работа в веб-студии AboutWeb.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Индивидуальное предпринимательство / частная практика / фриланс</h4>
-
-              <span>Ноябрь 2021 — Февраль 2022<br>
-                    4 месяца
-              </span>
-
-              <p class="timeline-text">
-                Боты:<br>
-                - Для напоминания о предстоящих конференциях с админкой. Стэк: Aiogram, Aiohttp,
-                APScheduler, Django Rest Framework.<br>
-                - Для ответа на часто-задаваемые вопросы. Стэк: Aiogram, Aiohttp, Django Rest Framework, deeppavlov,
-                tensorflow.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Обучение</h4>
-
-              <span>Март 2021 — Май 2021<br>
-                    2 месяца
-              </span>
-
-              <p class="timeline-text">
-                YandexLicey_telegramm_bot (в портфолио).<br>
-                Телеграм бот для распределения задач между подчиненными. Стек: Aiogram, PostgreSQL, Sqlalchemy. 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Преподаватель в компании Geekz (ЕГЭ информатика)</h4>
-
-              <span>Сентябрь 2021 — Февраль 2023<br>
-                    6 месяцев
-              </span>
-
-              <p class="timeline-text">
-                - Проведение уроков по 1.5 - 2 часа (1 раз в две недели в группе)<br>
-                - Курирование 2-ух групп учеников по 10 человек.<br>
-                - Проведение личных бесед с учениками (по 30 мин, раз в месяц).<br>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
         <!-- <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
