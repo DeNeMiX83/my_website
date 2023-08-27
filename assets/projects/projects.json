@@ -1,59 +1,40 @@
 {
-    "EditDB": {
-        "name": "EditDB",
-        "description": "Приложение для редактирования базы данных, которая хранит цитаты.<br>В реализации используется разделение прав доступа по ролям при работе с записями.",
-        "category": "app",
-        "github": "https://github.com/DeNeMiX83/EditDB",
-        "technologies": [
-            "java",
-            "javafx",
-            "mysql"
-        ]
-    },
-    "YandexLicey_telegramm_bot": {
-        "name": "YandexLicey_telegramm_bot",
-        "description": "Бот для распределения задач между подчиненными.<br>Бот позволяет добавить список подчиненных, и после этого назначать им задачи.<br>При выполнении задачи подчиненные смогут прикрепить отчет о выполнении задачи в виде: голосового сообщения, фотографии, файла.",
-        "category": "bot",
-        "github": "https://github.com/DeNeMiX83/YandexLicey_telegramm_bot",
-        "technologies": [
-            "python",
-            "aiogram",
-            "sqlalchemy",
-            "postgresql"
-        ]
-    },
-    "Pool search assistant": {
-        "name": "Pool search assistant",
-        "description": "API-сервис для рекомендаций бассейнов на основе понравившихся бассейнов. <br>Для работы сервиса использовался датасет из открытых данных города Москва <a href='https://data.mos.ru/opendata/7708308010-basseyny-plavatelnye-krytye' target='_blank'>- ссылка на датасет</a>Для рекомендаций использовался алгоритм по косинусному расстоянию.<br><a href='https://miheev.su/pool/api/v1/docs' target='_blank'>- ссылка на докоментацию сервиса API</a>",
+    "Doc search": {
+        "name": "Doc search",
+        "description":
+            "- Сервис принимает на вход произвольный текстовый запрос, ищет документы по тексту документа в индексе и возвращает первые 20 документов со всем полями БД, упорядоченные по дате создания.<br>- Создание документа одновременно в БД и в индексе.<br>- При создании документа с новыми рубриками, они создаются автоматически.<br>- Удаление документов из БД и индекса по полю id.<br>- Поднят сервис kibana.",
         "category": "api",
-        "github": "https://github.com/DeNeMiX83/pool_search_assistant",
+        "github": "https://github.com/DeNeMiX83/search_by_document_texts",
+        "img": "./assets/images/project-api-Doc-search.png",
+        "descr": "API",
         "technologies": [
             "python",
             "fastapi",
+            "elasticsearch",
+            "postgresql",
             "sqlalchemy",
-            "postgresql",
-            "redis",
             "docker-compose"
-        ]
+        ],
+        "stack": {
+            "python": "https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241",
+            "FastAPI": "https://img.shields.io/badge/FastAPI-109989?style=flat&logo=fastapi&logoColor=white",
+            "elasticsearch": "https://img.shields.io/badge/-Elasticsearch-005571?style=flat&logo=Elasticsearch&logoColor=white",
+            "postgresql": "https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&logo=Postgresql",
+            "sqlalchemy": "https://img.shields.io/badge/-SQLAlchemy-7BAC41?style=flat&logo=SQLAlchemy&logoColor=white",
+            "docker-compose": "https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat&logo=Docker&logoColor=white"
+            
+
+        }
     },
-    "Yandex_backend_school": {
-        "name": "Yandex_backend_school",
-        "description": "Решение задачи из Школы бэкенд-разработки Яндекса",
-        "category": "api",
-        "github": "https://github.com/DeNeMiX83/Yandex_backend_school",
-        "technologies": [
-            "python",
-            "drf",
-            "postgresql",
-            "docker-compose"
-        ]
-    },
+    
     "Blackjack": {
         "name": "Blackjack",
         "description": 
             "Телеграмм-бот для игры в 'Блэкджек'<br>- Бот с полноценным геймплеем и защитой от спама (троттлингом).<br>- Отдельный сервис для пуллинга Telegram-API с RabbitMQ.<br>- Сервис API для администратора.<br>- Авто-деплой на удаленный сервер и загрузка образа в registry с помощью Github-Actions.",
-        "category": "api",
+        "category": "bot",
         "github": "https://github.com/DeNeMiX83/black_jack",
+        "img": "./assets/images/project-bot-Blackjack.png",
+        "descr": "Бот",
         "technologies": [
             "python",
             "aiohttp",
@@ -62,21 +43,98 @@
             "sqlalchemy",
             "redis",
             "docker-compose"
-        ]
+        ],
+        "stack": {
+            "python": "https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241",
+            "aiohttp": "https://img.shields.io/badge/-aiohttp-005571?style=flat&logo=aiohttp&logoColor=white",
+            "rabbitmq": "https://img.shields.io/badge/-RabbitMQ-FF6600?style=flat&logo=RabbitMQ&logoColor=white",
+            "postgresql": "https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&logo=Postgresql",
+            "sqlalchemy": "https://img.shields.io/badge/-SQLAlchemy-7BAC41?style=flat&logo=SQLAlchemy&logoColor=white",
+            "redis": "https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=Redis&logoColor=white",
+            "docker-compose": "https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat&logo=Docker&logoColor=white"
+        }
     },
-    "Doc search": {
-        "name": "Doc search",
-        "description":
-            "- Сервис принимает на вход произвольный текстовый запрос, ищет документы по тексту документа в индексе и возвращает первые 20 документов со всем полями БД, упорядоченные по дате создания.<br>- Создание документа одновременно в БД и в индексе.<br>- При создании документа с новыми рубриками, они создаются автоматически.<br>- Удаление документов из БД и индекса по полю id.<br>- Поднят сервис kibana.",
+
+    "Pool search assistant": {
+        "name": "Pool search assistant",
+        "description": "API-сервис для рекомендаций бассейнов на основе понравившихся бассейнов. <br>Для работы сервиса использовался датасет из открытых данных города Москва <a href='https://data.mos.ru/opendata/7708308010-basseyny-plavatelnye-krytye' target='_blank'>- ссылка на датасет</a>Для рекомендаций использовался алгоритм по косинусному расстоянию.<br><a href='https://miheev.su/pool/api/v1/docs' target='_blank'>- ссылка на докоментацию сервиса API</a>",
         "category": "api",
-        "github": "https://github.com/DeNeMiX83/search_by_document_texts",
+        "github": "https://github.com/DeNeMiX83/pool_search_assistant",
+        "img": "./assets/images/project-api-Pool-search-assistant.png",
+        "descr": "API",
         "technologies": [
             "python",
             "fastapi",
-            "elasticsearch",
-            "postgresql",
             "sqlalchemy",
+            "postgresql",
+            "redis",
             "docker-compose"
-        ]
+        ],
+        "stack": {
+            "python": "https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241",
+            "fastapi": "https://img.shields.io/badge/FastAPI-109989?style=flat&logo=fastapi&logoColor=white",
+            "sqlalchemy": "https://img.shields.io/badge/-SQLAlchemy-7BAC41?style=flat&logo=SQLAlchemy&logoColor=white",
+            "postgresql": "https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&logo=Postgresql",
+            "redis": "https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=Redis&logoColor=white",
+            "docker-compose": "https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat&logo=Docker&logoColor=white"
+        }
+    },
+    "Yandex_backend_school": {
+        "name": "Yandex_backend_school",
+        "description": "Решение задачи из Школы бэкенд-разработки Яндекса",
+        "category": "api",
+        "github": "https://github.com/DeNeMiX83/Yandex_backend_school",
+        "img": "./assets/images/project-api-Yandex_backend_school.png",
+        "descr": "API",
+        "technologies": [
+            "python",
+            "drf",
+            "postgresql",
+            "docker-compose"
+        ],
+        "stack": {
+            "python": "https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241",
+            "drf": "https://img.shields.io/badge/-DRF-0C4B33?style=flat&logo=Django&logoColor=white",
+            "postgresql": "https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&logo=Postgresql",
+            "docker-compose": "https://img.shields.io/badge/-Docker_Compose-2496ED?style=flat&logo=Docker&logoColor=white"
+        }
+    },
+    "EditDB": {
+        "name": "EditDB",
+        "description": "Приложение для редактирования базы данных, которая хранит цитаты.<br>В реализации используется разделение прав доступа по ролям при работе с записями.",
+        "category": "app",
+        "github": "https://github.com/DeNeMiX83/EditDB",
+        "img": "./assets/images/project-app-EditDB.png",
+        "descr": "Приложение",
+        "technologies": [
+            "java",
+            "javafx",
+            "mysql"
+        ],
+        "stack": {
+            "java": "https://img.shields.io/badge/Java-ED8B00?style=flat&amp;logo=java&amp;logoColor=white",
+            "javafx": "https://img.shields.io/badge/-JavaFX-007396?style=flat&logo=JavaFX&logoColor=white",
+            "mysql": "https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"
+        }
+    },
+    "YandexLicey_telegramm_bot": {
+        "name": "YandexLicey_telegramm_bot",
+        "description": "Бот для распределения задач между подчиненными.<br>Бот позволяет добавить список подчиненных, и после этого назначать им задачи.<br>При выполнении задачи подчиненные смогут прикрепить отчет о выполнении задачи в виде: голосового сообщения, фотографии, файла.",
+        "category": "bot",
+        "github": "https://github.com/DeNeMiX83/YandexLicey_telegramm_bot",
+        "img": "./assets/images/project-bot-YandexLicey_telegramm_bot.png",
+        "descr": "Бот",
+        "technologies": [
+            "python",
+            "aiogram",
+            "sqlalchemy",
+            "postgresql"
+        ],
+        "stack": {
+            "python": "https://img.shields.io/badge/-Python-386e9d?style=flat&logo=Python&logoColor=ffd241",
+            "aiogram": "https://img.shields.io/badge/-Aiogram-0088cc?style=flat&logo=Telegram&logoColor=white",
+            "sqlalchemy": "https://img.shields.io/badge/-SQLAlchemy-7BAC41?style=flat&logo=SQLAlchemy&logoColor=white",
+            "postgresql": "https://img.shields.io/badge/-Postgresql-%232c3e50?style=flat&logo=Postgresql"
+        }
     }
 }
