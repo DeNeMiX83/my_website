@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Михеев Даниил Евгеньевич - Backend разработчик. Личный сайт-портфолио. Основной язык: python.">
-  <meta name="Keywords" content="михеев даниил, backend разработчик, портфолио, личный сайт, python">
+  <meta name="description" content="Михеев Даниил Евгеньевич - Backend разработчик. Личный сайт-портфолио. Основной язык: go.">
+  <meta name="Keywords" content="михеев даниил, backend разработчик, портфолио, личный сайт, go, python">
   <meta name="yandex-verification" content="8c22b83b1f94ae83" />
   <title>Михеев Даниил</title>
 
@@ -373,10 +373,30 @@
           <ol class="timeline-list">
             <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">Вайлдберриз, ООО</h4> 
+              <a href="https://mpgo.ru" target="_blank"></a>
+              <span>май 2025 — по настоящее время<br>
+                    10 месяцев
+              </span>
+
+              <p class="timeline-text">
+                <b>Senior Golang-разработчик</b><br>
+                Работал в платформенной команде Platform T&S, DevX Core, разрабатывая высоконагруженные сервисы и поддерживая общую шину данных Databus платформы с каталогом событий, владельцами/потребителями и хранением в ClickHouse для аналитики (миллионы сообщений/день).<br>
+
+                - Перепроектировал авторизацию в корпоративной CLI-утилите. Использовал подход JWKS с кэшированием, что позволило убрать избыточные запросы к Keycloak, сократив время авторизации пользователя и выполнения cli команд. Так же заложил основу бесшовного единого входа для сервисов, которые были и будут интегрированы. (sso).<br>
+                - PaaS на Temporal. Создал готовый к продакшену прототип платформенного сервиса с изоляцией пространств имён и контролем доступа через Keycloak/JWKS для предоставления сервиса различным командам внутри компании.<br>
+                - Databus Go SDK: Расширил SDK поддержкой метаданных сообщений и заголовков для продюсера/консьюмера без изменений бизнес-логики и схем. Разблокировал ключевые сценарии: распределённую трассировку, A/B-тесты, передачу контекста (корреляция, версии) и упрощённый мониторинг инцидентов. Обратно совместимый API + полная документация с примерами снизили порог входа для десятка команд.<br>
+                - Синхронизация proto-схем. Разработал сервис для автоматической синхронизации схем из Schema Registry в Redpanda/ClickHouse, что позволило ликвидировать ручной труд, минимизировал ошибки и ускорил деплой событий в 5 раз.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
               <h4 class="h4 timeline-item-title">MPGO</h4> 
               <a href="https://mpgo.ru" target="_blank"></a>
-              <span>июль 2023 — по настоящее время<br>
-                    1 год 10 месяцев
+              <span>июнь 2023 — май 2025<br>
+                    2 года
               </span>
 
               <p class="timeline-text">
@@ -422,7 +442,7 @@
 
               <h4 class="h4 timeline-item-title">Веб-студия AboutWeb</h4>
 
-              <span>Май 2021 — сентябоь 2022<br>
+              <span>Май 2021 — сентябрь 2022<br>
                     1 года 5 месяцев
               </span>
               
@@ -543,7 +563,7 @@
           </ul>
 
         </section> -->
-        <a href="./assets/Mikheev Daniil Python Backend Developer CV.pdf" target="_blank">
+        <a href="./assets/Mikheev Daniil Golang Backend Developer CV.pdf" target="_blank">
           <div class="resume-file">
             <div class="icon-box">
               <ion-icon name="document-outline"></ion-icon>
